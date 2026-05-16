@@ -94,8 +94,10 @@ jobs:
       - name: Run bazel build on Linux.
         run: |
           bazel build --disk_cache=~/.cache/bazel-linux --config=linux_x86_64 \
+            --deleted_packages=swift \
             //... \
             //runtime/engine:litert_lm_main
+
 
       - name: Check if litert_lm_main doesn't link libLiteRt.so.
         # Return exit code 1 if libLiteRt.so is required.
@@ -111,8 +113,10 @@ jobs:
       - name: Run bazel test on Linux.
         run: |
           bazel test --disk_cache=~/.cache/bazel-linux --config=linux_x86_64 \
+            --deleted_packages=swift \
             --test_output=errors \
             //...
+
 
       - name: Install pytest
         run: python3 -m pip install --break-system-packages pytest==8.3.4

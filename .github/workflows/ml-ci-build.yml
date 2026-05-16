@@ -170,6 +170,7 @@ jobs:
       - name: Run bazel build on Linux.
         run: |
           bazelisk build --disk_cache=~/.cache/bazel-linux --config=linux_x86_64 \
+            --deleted_packages=swift \
             --java_runtime_version=remotejdk_17 \
             //... \
             //runtime/engine:litert_lm_main
@@ -188,6 +189,7 @@ jobs:
       - name: Run bazel test on Linux.
         run: |
           bazelisk test --disk_cache=~/.cache/bazel-linux --config=linux_x86_64 \
+            --deleted_packages=swift \
             --test_output=errors \
             //...
 

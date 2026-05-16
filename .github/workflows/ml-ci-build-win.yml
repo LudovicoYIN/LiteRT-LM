@@ -224,6 +224,7 @@ jobs:
         run: |
           bazel --output_base="$env:BAZEL_OUTPUT_BASE" `
             build --disk_cache=~/.cache/bazel-windows `
+            --deleted_packages=swift `
             --build_tag_filters='-nowindows' `
             --action_env=TMP="$env:TMP" `
             --action_env=TEMP="$env:TEMP" `
@@ -244,6 +245,7 @@ jobs:
         run: |
           bazel --output_base="$env:BAZEL_OUTPUT_BASE" `
             test --disk_cache=~/.cache/bazel-windows --test_output=errors `
+            --deleted_packages=swift `
             --test_timeout=300,1500,5400,18000 `
             --test_verbose_timeout_warnings `
             --test_tag_filters='-requires-mac-inputs:hard,-nowindows' `
