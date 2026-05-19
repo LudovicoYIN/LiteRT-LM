@@ -61,12 +61,14 @@ models immediately on your device.
 
 ### 📰 Blogs & Announcements
 
-Link                                                                                                                                                                                    | Description
-:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------
-[Bring state-of-the-art agentic skills to the edge with Gemma 4](https://developers.googleblog.com/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/)                     | Deploy Gemma 4 in-app and across a broader range of devices with stellar performance and broad reach using LiteRT-LM.
-[On-device GenAI in Chrome, Chromebook Plus and Pixel Watch](https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm/)               | Deploy language models on wearables and browser-based platforms using LiteRT-LM at scale.
-[On-device Function Calling in Google AI Edge Gallery](https://developers.googleblog.com/on-device-function-calling-in-google-ai-edge-gallery/)                                         | Explore how to fine-tune FunctionGemma and enable function calling capabilities powered by LiteRT-LM Tool Use APIs.
-[Google AI Edge small language models, multimodality, and function calling](https://developers.googleblog.com/google-ai-edge-small-language-models-multimodality-rag-function-calling/) | Latest insights on RAG, multimodality, and function calling for edge language models.
+Link                                                                                                                                                                                                            | Description
+:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------
+[Blazing-fast on-device GenAI with LiteRT-LM](https://developers.googleblog.com/blazing-fast-on-device-genai-with-litert-lm/)                                                                                   | Unlock Gemma 4's full potential with blazing speed and incredible efficiency using newly added Swift, JavaScript, and Flutter APIs.
+[Accelerating Gemma 4: faster inference with multi-token prediction drafters](https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/)                                | An overview of how Multi-Token Prediction (MTP) drafters are making Gemma 4 models up to 3x faster at inference.
+[Bring state-of-the-art agentic skills to the edge with Gemma 4](https://developers.googleblog.com/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/)                                             | Deploy Gemma 4 in-app and across a broader range of devices with stellar performance and broad reach using LiteRT-LM.
+[On-device GenAI in Chrome, Chromebook Plus and Pixel Watch](https://developers.googleblog.com/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm/)                                       | Deploy language models on wearables and browser-based platforms using LiteRT-LM at scale.
+[On-device Function Calling in Google AI Edge Gallery](https://developers.googleblog.com/on-device-function-calling-in-google-ai-edge-gallery/)                                                                 | Explore how to fine-tune FunctionGemma and enable function calling capabilities powered by LiteRT-LM Tool Use APIs.
+[Google AI Edge small language models, multimodality, and function calling](https://developers.googleblog.com/google-ai-edge-small-language-models-multimodality-rag-function-calling/)                         | Latest insights on RAG, multimodality, and function calling for edge language models.
 
 --------------------------------------------------------------------------------
 
